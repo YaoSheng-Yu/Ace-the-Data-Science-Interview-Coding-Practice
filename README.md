@@ -26,26 +26,38 @@ def array_intersection(a, b):
 ```
 
 Common operation for set:
-    Union: set_a | set_b or set_a.union(set_b) will return a set containing all unique elements from set_a and set_b.
+    Union
+        a | b or a.union(b) returns a set containing all unique elements from a and b.
 
-    Intersection: set_a & set_b or set_a.intersection(set_b) will return a set containing all elements that are common to set_a and set_b.
+    Intersection
+        a & b or a.intersection(b) returns a set containing all elements common to a and b.
 
-    Difference: set_a - set_b or set_a.difference(set_b) will return a set containing all elements that are in set_a but not in set_b.
+    Difference
+        a - b or a.difference(b) returns a set containing all elements that are in a but not in b.
 
-    Symmetric Difference: set_a ^ set_b or set_a.symmetric_difference(set_b) will return a set containing all elements that are in either set_a or set_b, but not both.
+    Symmetric Difference
+        a ^ b or a.symmetric_difference(b) returns a set containing all elements that are in either a or b, but not both.
 
-    Subset: set_a <= set_b or set_a.issubset(set_b) will return True if all elements of set_a are in set_b.
+    Subset
+        a <= b or a.issubset(b) returns True if all elements of a are in b.
 
-    Superset: set_a >= set_b or set_a.issuperset(set_b) will return True if all elements of set_b are in set_a.
+    Superset
+        a >= b or a.issuperset(b) returns True if all elements of b are in a.
 
-    Disjoint: set_a.isdisjoint(set_b) will return True if set_a and set_b have no elements in common.
+    Disjoint Sets
+        a.isdisjoint(b) returns True if a and b have no elements in common.
 
-    Add: set_a.add(x) will add the element x to set_a.
+    Add Element
+        a.add(x) adds the element x to the set a.
 
-    Remove: set_a.remove(x) will remove the element x from set_a. If x is not in set_a, it will raise a KeyError.
+    Remove Element
+        a.remove(x) removes the element x from the set a. If x is not present, it raises a KeyError.
 
-    Discard: set_a.discard(x) will remove the element x from set_a if it is present. If x is not in set_a, it does nothing.
+    Discard Element
+        a.discard(x) removes the element x from the set a if it is present.
 
-    Pop: set_a.pop() will remove and return an arbitrary element from set_a. If set_a is empty, it raises a KeyError.
+    Pop Element
+        a.pop() removes and returns an arbitrary element from the set a. If the set is empty, it raises a KeyError.
 
-    Clear: set_a.clear() will remove all elements from set_a.
+    Clear Set
+        a.clear() removes all elements from the set a.
